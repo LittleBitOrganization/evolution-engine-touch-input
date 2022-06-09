@@ -1,0 +1,12 @@
+{
+  "name": "com.littlebitgames.touchinput",
+  "displayName": "Input touch module",
+  "version": "1.0.0",
+  "unity": "2021.1",
+  "unityRelease": "6f1",
+  "description": "This module provides you with LittleBitGames Core Module",
+  "category": "Module",
+  "author": {
+    "name": "LittleBitGames"
+  }
+}
