@@ -35,7 +35,12 @@ namespace LittleBit.Modules.TouchInput
         [Tooltip(
             "When this flag is enabled the drag started event is invoked immediately when the long tap time is succeeded.")]
         private bool _longTapStartsDrag = true;
+        [SerializeField]
+        [Tooltip(
+            "When time over do OnLongTapProgress")]
+        private float _longTapStartsTime = 0.5f;
 
+        public float LongTapStartsTime => _longTapStartsTime;
         public bool LongTapStartsDrag => _longTapStartsDrag;
         public float ClickDurationThreshold => _clickDurationThreshold;
         public double DragStartDistanceThresholdRelative => _dragStartDistanceThresholdRelative;

@@ -9,6 +9,5 @@ namespace LittleBit.Modules.TouchInput
     public delegate void PinchStartDelegate(Vector3 pinchCenter, float pinchDistance);
     public delegate void PinchUpdateExtendedDelegate(PinchUpdateData pinchUpdateData);
     public delegate void InputPositionDelegate(Vector3 pos);
-    public delegate void InputLongTapProgress(float progress);
     public delegate void InputMouseZoomAmount(float progress);
 }

@@ -8,6 +8,6 @@
 # Импорт
 ```JSON
 "dependencies": {
-    "com.littlebitgames.touchinput": "https://github.com/LittleBitOrganization/evolution-engine-touch-input.git#1.0.1",
+    "com.littlebitgames.touchinput": "https://github.com/LittleBitOrganization/evolution-engine-touch-input.git#1.0.2",
 }
 ```
